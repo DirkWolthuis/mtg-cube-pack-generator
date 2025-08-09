@@ -4,71 +4,107 @@ import { Card } from './card.model';
 import { SLOT_CONFIG } from './slots';
 import { generateFilter } from './filters';
 
-const results = [];
-
 const PACK_AMOUNT = 12;
 
-fs.createReadStream('./data/eoeset.csv')
-  .pipe(csv())
-  .on('data', (data) => results.push(data))
-  .on('end', () => {
-    processCardData(results);
-  });
+const main = () => {
+  const results = [];
 
-const processCardData = (data: Card[]) => {
+  fs.createReadStream('./data/eoeset.csv')
+    .pipe(csv())
+    .on('data', (data) => results.push(data))
+    .on('end', () => {
+      processCardData(results);
+    });
+};
+
+const validateCardData = (data: Card[]): boolean => {
   if (!Array.isArray(data) || data.length === 0) {
     console.error('No card data found or data is not an array.');
-    return;
+    return false;
   }
+  return true;
+};
 
-  const currentSet = data;
-  const currentPacks = Array.from({ length: PACK_AMOUNT }, (_, i) => ({
+const createPacks = (amount: number) => {
+  return Array.from({ length: amount }, (_, i) => ({
     packNumber: i + 1,
     cards: [],
   }));
+};
 
-  // for each card in the pack, loop over each pack and pick a random card from the filtered cards
-  // Then delete that card from the array so it can't be picked again
+const filterCardsForSlot = (currentSet: Card[], slotConfigs: any[]): Card[] => {
+  return slotConfigs.reduce((pv, cv) => {
+    return generateFilter(pv, cv.filter, cv.filterMode, cv.filterValues);
+  }, currentSet);
+};
+
+const pickAndRemoveRandomCard = (
+  filteredCards: Card[],
+  currentSet: Card[],
+  pack: any,
+  slotName: string
+) => {
+  if (filteredCards.length === 0) {
+    console.error(
+      `No cards available for slot ${slotName} in pack ${pack.packNumber}`
+    );
+    throw new Error('No card data found or data is not an array, exiting...');
+  }
+  const randomIndex = Math.floor(Math.random() * filteredCards.length);
+  const selectedCard = filteredCards[randomIndex];
+  const selectedCardIndex = currentSet.findIndex(
+    (card) => card.name === selectedCard.name
+  );
+  if (selectedCardIndex !== -1) {
+    currentSet.splice(selectedCardIndex, 1);
+  } else {
+    console.warn(
+      `Selected card ${selectedCard.name} not found in current set for removal.`
+    );
+  }
+  console.log(
+    `picked card ${selectedCard.name} (${selectedCard.Rarity}) for pack ${pack.packNumber} for ${slotName}`
+  );
+  pack.cards.push(selectedCard.name);
+};
+
+const writePacksToFile = (packs: any[], cardsLeft: number) => {
+  try {
+    fs.mkdirSync('./output', { recursive: true });
+    const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+    const outputFileName = `./output/generated_packs_${timestamp}.json`;
+    fs.writeFileSync(outputFileName, JSON.stringify(packs, null, 2), 'utf-8');
+    console.log(
+      `Generated packs written to ./output/generated_packs_${timestamp}.json`
+    );
+    console.log('Cards left:', cardsLeft);
+  } catch (err) {
+    console.error('Error writing packs to file:', err);
+  }
+};
+
+const processCardData = (data: Card[]) => {
+  if (!validateCardData(data)) return;
+  const currentSet = data;
+  const currentPacks = createPacks(PACK_AMOUNT);
 
   SLOT_CONFIG.forEach((slotConfigs, slotName) => {
     currentPacks.forEach((pack) => {
-      const filteredCards = slotConfigs.reduce((pv, cv) => {
-        return generateFilter(pv, cv.filter, cv.filterMode, cv.filterValues);
-      }, currentSet);
       console.log(`picking card for pack ${pack.packNumber} for ${slotName}`);
-
-      if (filteredCards.length === 0) {
-        throw new Error(
-          'No card data found or data is not an array, existing...'
+      try {
+        const filteredCards = filterCardsForSlot(currentSet, slotConfigs);
+        pickAndRemoveRandomCard(filteredCards, currentSet, pack, slotName);
+      } catch (err) {
+        console.error(
+          `Error picking card for pack ${pack.packNumber} for ${slotName}:`,
+          err
         );
+        throw err;
       }
-      const randomIndex = Math.floor(Math.random() * filteredCards.length);
-      const selectedCard = filteredCards[randomIndex];
-
-      // delete selected card from current set
-      const selectedCardIndex = currentSet.findIndex(
-        (card) => card.name === selectedCard.name
-      );
-      if (selectedCardIndex !== -1) {
-        currentSet.splice(selectedCardIndex, 1);
-      }
-
-      console.log(
-        `picked card ${selectedCard.name} (${selectedCard.Rarity}) for pack ${pack.packNumber} for ${slotName}`
-      );
-      pack.cards.push(selectedCard.name);
     });
   });
 
-  // write currentPacks to a json file in the output subdir
-  fs.mkdirSync('./output', { recursive: true });
-  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-  const outputFileName = `./output/generated_packs_${timestamp}.json`;
-  fs.writeFileSync(
-    outputFileName,
-    JSON.stringify(currentPacks, null, 2),
-    'utf-8'
-  );
-  console.log('Generated packs written to ./output/generated_packs.json');
-  console.log('Cards left:', currentSet.length);
+  writePacksToFile(currentPacks, currentSet.length);
 };
+
+main();

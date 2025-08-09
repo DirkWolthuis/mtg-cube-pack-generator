@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "tsx generate_packs.ts"
+    "start": "tsx generate_packs.ts",
+    "pick-packs": "tsx pick-packs.ts"
   },
   "author": "",
   "license": "ISC",
