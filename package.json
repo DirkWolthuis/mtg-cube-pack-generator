@@ -1,0 +1,19 @@
+{
+  "name": "pack-gen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx generate_packs.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "tsx": "^4.20.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "typescript": "^5.9.2"
+  }
+}
