@@ -5,57 +5,81 @@ name,CMC,Type,Color,Set,Collector Number,Rarity,Color Category,status,Finish,may
 "Starfighter Pilot",2,"Creature - Human Pilot",W,"eoe","38",common,White,Not Owned,,false,,,"","",142689
 "Starfighter Pilot",2,"Creature - Human Pilot",W,"eoe","38",common,White,Not Owned,,false,,,"","",142689
 "Sunstar Chaplain",2,"Creature - Human Cleric",W,"eoe","40",rare,White,Not Owned,,false,,,"","",142693
+"Sunstar Expansionist",2,"Creature - Human Knight",W,"eoe","41",uncommon,White,Not Owned,,false,,,"","",142695
 "Brightspear Zealot",3,"Creature - Human Soldier",W,"eoe","8",common,White,Not Owned,,false,,,"","",142629
 "Brightspear Zealot",3,"Creature - Human Soldier",W,"eoe","8",common,White,Not Owned,,false,,,"","",142629
+"Exosuit Savior",3,"Creature - Human Soldier",W,"eoe","16",common,White,Not Owned,,false,,,"","",142645
 "Flight-Deck Coordinator",3,"Creature - Human Soldier",W,"eoe","17",common,White,Not Owned,,false,,,"","",142647
 "Rayblade Trooper",3,"Creature - Human Soldier",W,"eoe","30",uncommon,White,Not Owned,,false,,,"","",142673
+"Luxknight Breacher",4,"Creature - Human Knight",W,"eoe","26",common,White,Not Owned,,false,,,"","",142665
 "Luxknight Breacher",4,"Creature - Human Knight",W,"eoe","26",common,White,Not Owned,,false,,,"","",142665
 "Astelli Reclaimer",5,"Creature - Angel Warrior",W,"eoe","4",rare,White,Not Owned,,false,,,"","",142621
 "Starfield Shepherd",5,"Creature - Angel",W,"eoe","37",uncommon,White,Not Owned,,false,,,"","",142687
 "Dawnstrike Vanguard",6,"Creature - Human Knight",W,"eoe","10",uncommon,White,Not Owned,,false,,,"","",142633
+"Dawnstrike Vanguard",6,"Creature - Human Knight",W,"eoe","10",uncommon,White,Not Owned,,false,,,"","",142633
 "Weftblade Enhancer",6,"Creature - Drix Artificer",W,"eoe","44",common,White,Not Owned,,false,,,"","",142701
 "Focus Fire",1,"Instant",W,"eoe","18",common,White,Not Owned,,false,,,"","",142649
 "Emergency Eject",3,"Instant",W,"eoe","14",uncommon,White,Not Owned,,false,,,"","",142641
+"Zealous Display",3,"Instant",W,"eoe","45",common,White,Not Owned,,false,,,"","",142703
+"Radiant Strike",4,"Instant",W,"eoe","29",common,White,Not Owned,,false,,,"","",142671
+"Honor",1,"Sorcery",W,"eoe","21",uncommon,White,Not Owned,,false,,,"","",142655
 "Honor",1,"Sorcery",W,"eoe","21",uncommon,White,Not Owned,,false,,,"","",142655
 "Squire's Lightblade",1,"Artifact - Equipment",W,"eoe","36",common,White,Not Owned,,false,,,"","",142685
 "Squire's Lightblade",1,"Artifact - Equipment",W,"eoe","36",common,White,Not Owned,,false,,,"","",142685
 "Lumen-Class Frigate",2,"Artifact - Spacecraft",W,"eoe","25",rare,White,Not Owned,,false,,,"","",142663
 "Auxiliary Boosters",5,"Artifact - Equipment",W,"eoe","5",common,White,Not Owned,,false,,,"","",142623
 "Auxiliary Boosters",5,"Artifact - Equipment",W,"eoe","5",common,White,Not Owned,,false,,,"","",142623
+"Auxiliary Boosters",5,"Artifact - Equipment",W,"eoe","5",common,White,Not Owned,,false,,,"","",142623
 "Deafening Silence",1,"Enchantment",W,"eld","10",uncommon,White,Not Owned,,false,,,"","",78108
+"Hardlight Containment",1,"Enchantment - Aura",W,"eoe","20",rare,White,Not Owned,,false,,,"","",142653
 "Seam Rip",1,"Enchantment",W,"eoe","34",uncommon,White,Not Owned,,false,,,"","",142681
-"Banishing Light",3,"Enchantment",W,"jou","5",uncommon,White,Not Owned,,false,,,"","",52214
-"Banishing Light",3,"Enchantment",W,"jou","5",uncommon,White,Not Owned,,false,,,"","",52214
+"Banishing Light",3,"Enchantment",W,"jou","5",common,White,Not Owned,,false,,,"","",52214
+"Banishing Light",3,"Enchantment",W,"jou","5",common,White,Not Owned,,false,,,"","",52214
 "Illvoi Galeblade",1,"Creature - Jellyfish Warrior",U,"eoe","58",common,Blue,Not Owned,,false,,,"","",142729
 "Illvoi Galeblade",1,"Creature - Jellyfish Warrior",U,"eoe","58",common,Blue,Not Owned,,false,,,"","",142729
 "Emissary Escort",2,"Artifact Creature - Robot Soldier",U,"eoe","56",rare,Blue,Not Owned,,false,,,"","",142725
 "Illvoi Operative",2,"Creature - Jellyfish Rogue",U,"eoe","61",common,Blue,Not Owned,,false,,,"","",142735
+"Mechan Navigator",2,"Artifact Creature - Robot Pilot",U,"eoe","64",uncommon,Blue,Not Owned,,false,,,"","",142741
+"Mechan Shieldmate",2,"Artifact Creature - Robot Soldier",U,"eoe","65",common,Blue,Not Owned,,false,,,"","",142743
 "Steelswarm Operator",2,"Artifact Creature - Robot Soldier",U,"eoe","80",uncommon,Blue,Not Owned,,false,,,"","",142773
 "Cloudsculpt Technician",3,"Creature - Jellyfish Artificer",U,"eoe","49",common,Blue,Not Owned,,false,,,"","",142711
-"Cloudsculpt Technician",3,"Creature - Jellyfish Artificer",U,"eoe","49",common,Blue,Not Owned,,false,,,"","",142711
+"Nanoform Sentinel",3,"Artifact Creature - Robot",U,"eoe","71",common,Blue,Not Owned,,false,,,"","",142755
+"Sinister Cryologist",3,"Creature - Jellyfish Wizard",U,"eoe","75",common,Blue,Not Owned,,false,,,"","",142763
 "Uthros Psionicist",3,"Creature - Jellyfish Scientist",U,"eoe","84",uncommon,Blue,Not Owned,,false,,,"","",142781
 "Selfcraft Mechan",4,"Artifact Creature - Robot Artificer",U,"eoe","74",common,Blue,Not Owned,,false,,,"","",142761
-"Selfcraft Mechan",4,"Artifact Creature - Robot Artificer",U,"eoe","74",common,Blue,Not Owned,,false,,,"","",142761
 "Starfield Vocalist",4,"Creature - Human Bard",U,"eoe","78",rare,Blue,Not Owned,,false,,,"","",142769
+"Mechan Assembler",5,"Artifact Creature - Robot Artificer",U,"eoe","63",uncommon,Blue,Not Owned,,false,,,"","",142739
 "Mm'menon, the Right Hand",5,"Legendary Creature - Jellyfish Advisor",U,"eoe","68",rare,Blue,Not Owned,,false,,,"","",142749
 "Starbreach Whale",5,"Creature - Whale",U,"eoe","77",common,Blue,Not Owned,,false,,,"","",142767
 "Mechanozoa",6,"Artifact Creature - Robot Jellyfish",U,"eoe","66",common,Blue,Not Owned,,false,,,"","",142745
 "Mouth of the Storm",7,"Creature - Elemental",U,"eoe","70",uncommon,Blue,Not Owned,,false,,,"","",142753
+"Rescue",1,"Instant",U,"uds","44",common,Blue,Not Owned,,false,,,"","",12809
+"Consult the Star Charts",2,"Instant",U,"eoe","51",rare,Blue,Not Owned,,false,,,"","",142715
 "Divert Disaster",2,"Instant",U,"eoe","55",common,Blue,Not Owned,,false,,,"","",142723
 "Divert Disaster",2,"Instant",U,"eoe","55",common,Blue,Not Owned,,false,,,"","",142723
+"Mental Modulation",2,"Instant",U,"eoe","67",common,Blue,Not Owned,,false,,,"","",142747
 "Unravel",3,"Instant",U,"eoe","83",uncommon,Blue,Not Owned,,false,,,"","",142779
 "Lost in Space",4,"Instant",U,"eoe","62",common,Blue,Not Owned,,false,,,"","",142737
+"Scour for Scrap",4,"Instant",U,"eoe","73",uncommon,Blue,Not Owned,,false,,,"","",142759
 "Cerebral Download",5,"Instant",U,"eoe","48",uncommon,Blue,Not Owned,,false,,,"","",142709
+"Cerebral Download",5,"Instant",U,"eoe","48",uncommon,Blue,Not Owned,,false,,,"","",142709
+"Maximize Altitude",1,"Sorcery",U,"grn","43",common,Blue,Not Owned,,false,,,"","",69459
+"Flood of Recollection",2,"Sorcery",U,"rix","38",common,Blue,Not Owned,,false,,,"","",66529
 "Synthesizer Labship",1,"Artifact - Spacecraft",U,"eoe","81",rare,Blue,Not Owned,,false,,,"","",142775
+"Cryogen Relic",2,"Artifact",U,"eoe","52",common,Blue,Not Owned,,false,,,"","",142717
 "Illvoi Light Jammer",2,"Artifact - Equipment",U,"eoe","60",common,Blue,Not Owned,,false,,,"","",142733
 "Uthros Scanship",4,"Artifact - Spacecraft",U,"eoe","85",uncommon,Blue,Not Owned,,false,,,"","",142783
 "Specimen Freighter",6,"Artifact - Spacecraft",U,"eoe","76",uncommon,Blue,Not Owned,,false,,,"","",142765
 "Cryoshatter",1,"Enchantment - Aura",U,"eoe","53",common,Blue,Not Owned,,false,,,"","",142719
 "Cryoshatter",1,"Enchantment - Aura",U,"eoe","53",common,Blue,Not Owned,,false,,,"","",142719
+"Hullcarver",1,"Artifact Creature - Robot Assassin",B,"eoe","105",common,Black,Not Owned,,false,,,"","",142823
 "Retrofitted Transmogrant",1,"Artifact Creature - Zombie",B,"mh3","106",common,Black,Not Owned,,false,,,"","",126229
 "Beamsaw Prospector",2,"Creature - Human Artificer",B,"eoe","89",common,Black,Not Owned,,false,,,"","",142791
+"Sunset Saboteur",2,"Creature - Human Rogue",B,"eoe","116",rare,Black,Not Owned,,false,,,"","",142845
 "Timeline Culler",2,"Creature - Drix Warlock",B,"eoe","121",uncommon,Black,Not Owned,,false,,,"","",142855
 "Virus Beetle",2,"Artifact Creature - Insect",B,"neo","128",common,Black,Not Owned,,false,,,"","",97184
+"Comet Crawler",3,"Creature - Insect Horror",B,"eoe","92",common,Black,Not Owned,,false,,,"","",142797
+"Faller's Faithful",3,"Creature - Human Wizard",B,"eoe","100",uncommon,Black,Not Owned,,false,,,"","",142813
 "Faller's Faithful",3,"Creature - Human Wizard",B,"eoe","100",uncommon,Black,Not Owned,,false,,,"","",142813
 "Gravpack Monoist",3,"Creature - Human Scout",B,"eoe","104",common,Black,Not Owned,,false,,,"","",142821
 "Gravpack Monoist",3,"Creature - Human Scout",B,"eoe","104",common,Black,Not Owned,,false,,,"","",142821
@@ -67,6 +91,8 @@ name,CMC,Type,Color,Set,Collector Number,Rarity,Color Category,status,Finish,may
 "Gravblade Heavy",4,"Creature - Human Soldier",B,"eoe","102",common,Black,Not Owned,,false,,,"","",142817
 "Gravblade Heavy",4,"Creature - Human Soldier",B,"eoe","102",common,Black,Not Owned,,false,,,"","",142817
 "Alpharael, Stonechosen",5,"Legendary Creature - Human Cleric",B,"eoe","87",mythic,Black,Not Owned,,false,,,"","",142787
+"Perigee Beckoner",5,"Creature - Horror",B,"eoe","112",common,Black,Not Owned,,false,,,"","",142837
+"Voidforged Titan",5,"Artifact Creature - Robot Warrior",B,"eoe","125",uncommon,Black,Not Owned,,false,,,"","",142863
 "Monoist Circuit-Feeder",6,"Artifact Creature - Nautilus",B,"eoe","110",uncommon,Black,Not Owned,,false,,,"","",142833
 "Dark Endurance",2,"Instant",B,"eoe","93",common,Black,Not Owned,,false,,,"","",142799
 "Dark Endurance",2,"Instant",B,"eoe","93",common,Black,Not Owned,,false,,,"","",142799
@@ -75,16 +101,21 @@ name,CMC,Type,Color,Set,Collector Number,Rarity,Color Category,status,Finish,may
 "Gravkill",4,"Instant",B,"eoe","103",common,Black,Not Owned,,false,,,"","",142819
 "Embrace Oblivion",1,"Sorcery",B,"eoe","98",common,Black,Not Owned,,false,,,"","",142809
 "Embrace Oblivion",1,"Sorcery",B,"eoe","98",common,Black,Not Owned,,false,,,"","",142809
+"Tragic Trajectory",1,"Sorcery",B,"eoe","122",uncommon,Black,Not Owned,,false,,,"","",142857
 "Hymn of the Faller",2,"Sorcery",B,"eoe","107",uncommon,Black,Not Owned,,false,,,"","",142827
 "Decode Transmissions",3,"Sorcery",B,"eoe","94",common,Black,Not Owned,,false,,,"","",142801
 "Scrounge for Eternity",3,"Sorcery",B,"eoe","114",uncommon,Black,Not Owned,,false,,,"","",142841
 "Temporal Intervention",3,"Sorcery",B,"eoe","120",common,Black,Not Owned,,false,,,"","",142853
 "Vote Out",4,"Sorcery",B,"eoe","126",uncommon,Black,Not Owned,,false,,,"","",142865
+"Dubious Delicacy",3,"Artifact - Food",B,"eoe","96",uncommon,Black,Not Owned,,false,,,"","",142805
+"Slagdrill Scrapper",1,"Artifact Creature - Robot Scout",R,"eoe","160",common,Red,Not Owned,,false,,,"","",142933
 "Oreplate Pangolin",2,"Artifact Creature - Robot Pangolin",R,"eoe","150",common,Red,Not Owned,,false,,,"","",142913
 "Oreplate Pangolin",2,"Artifact Creature - Robot Pangolin",R,"eoe","150",common,Red,Not Owned,,false,,,"","",142913
 "Zookeeper Mechan",2,"Artifact Creature - Robot",R,"eoe","170",common,Red,Not Owned,,false,,,"","",142953
 "Frontline War-Rager",3,"Creature - Kavu Soldier",R,"eoe","134",common,Red,Not Owned,,false,,,"","",142881
 "Frontline War-Rager",3,"Creature - Kavu Soldier",R,"eoe","134",common,Red,Not Owned,,false,,,"","",142881
+"Kavaron Turbodrone",3,"Artifact Creature - Robot Scout",R,"eoe","141",common,Red,Not Owned,,false,,,"","",142895
+"Kavaron Turbodrone",3,"Artifact Creature - Robot Scout",R,"eoe","141",common,Red,Not Owned,,false,,,"","",142895
 "Molecular Modifier",3,"Creature - Kavu Artificer",R,"eoe","146",uncommon,Red,Not Owned,,false,,,"","",142905
 "Weftstalker Ardent",3,"Creature - Drix Artificer",R,"eoe","169",uncommon,Red,Not Owned,,false,,,"","",142951
 "Kav Landseeker",4,"Creature - Kavu Soldier",R,"eoe","138",common,Red,Not Owned,,false,,,"","",142889
@@ -97,11 +128,16 @@ name,CMC,Type,Color,Set,Collector Number,Rarity,Color Category,status,Finish,may
 "Nova Hellkite",5,"Creature - Dragon",R,"eoe","148",rare,Red,Not Owned,,false,,,"","",142909
 "Vaultguard Trooper",5,"Creature - Kavu Soldier",R,"eoe","166",uncommon,Red,Not Owned,,false,,,"","",142945
 "Drill Too Deep",2,"Instant",R,"eoe","133",common,Red,Not Owned,,false,,,"","",142879
+"Drill Too Deep",2,"Instant",R,"eoe","133",common,Red,Not Owned,,false,,,"","",142879
 "Rig for War",2,"Instant",R,"eoe","156",common,Red,Not Owned,,false,,,"","",142925
 "Rig for War",2,"Instant",R,"eoe","156",common,Red,Not Owned,,false,,,"","",142925
+"Bombard",3,"Instant",R,"rix","93",common,Red,Not Owned,,false,,,"","",66639
 "Plasma Bolt",1,"Sorcery",R,"eoe","152",common,Red,Not Owned,,false,,,"","",142917
 "Ruinous Rampage",3,"Sorcery",R,"eoe","158",uncommon,Red,Not Owned,,false,,,"","",142929
+"Ruinous Rampage",3,"Sorcery",R,"eoe","158",uncommon,Red,Not Owned,,false,,,"","",142929
 "Systems Override",3,"Sorcery",R,"eoe","161",uncommon,Red,Not Owned,,false,,,"","",142935
+"Orbital Plunge",4,"Sorcery",R,"eoe","149",common,Red,Not Owned,,false,,,"","",142911
+"Terminal Velocity",6,"Sorcery",R,"eoe","163",rare,Red,Not Owned,,false,,,"","",142939
 "Melded Moxite",2,"Artifact",R,"eoe","143",common,Red,Not Owned,,false,,,"","",142899
 "Memorial Vault",4,"Artifact",R,"eoe","145",rare,Red,Not Owned,,false,,,"","",142903
 "Debris Field Crusher",5,"Artifact - Spacecraft",R,"eoe","131",uncommon,Red,Not Owned,,false,,,"","",142875
@@ -110,8 +146,10 @@ name,CMC,Type,Color,Set,Collector Number,Rarity,Color Category,status,Finish,may
 "Gene Pollinator",1,"Artifact Creature - Robot Insect",G,"eoe","186",common,Green,Not Owned,,false,,,"","",142985
 "Gene Pollinator",1,"Artifact Creature - Robot Insect",G,"eoe","186",common,Green,Not Owned,,false,,,"","",142985
 "Hemosymbic Mite",1,"Creature - Mite",G,"eoe","190",uncommon,Green,Not Owned,,false,,,"","",142993
+"Hemosymbic Mite",1,"Creature - Mite",G,"eoe","190",uncommon,Green,Not Owned,,false,,,"","",142993
 "Blooming Stinger",2,"Creature - Plant Scorpion",G,"eoe","174",common,Green,Not Owned,,false,,,"","",142961
 "Intrepid Tenderfoot",2,"Creature - Insect Citizen",G,"eoe","193",common,Green,Not Owned,,false,,,"","",142999
+"Galactic Wayfarer",3,"Creature - Human Scout",G,"eoe","185",common,Green,Not Owned,,false,,,"","",142983
 "Galactic Wayfarer",3,"Creature - Human Scout",G,"eoe","185",common,Green,Not Owned,,false,,,"","",142983
 "Meltstrider Eulogist",3,"Creature - Insect Soldier",G,"eoe","197",uncommon,Green,Not Owned,,false,,,"","",143007
 "Skystinger",3,"Creature - Insect Warrior",G,"eoe","207",common,Green,Not Owned,,false,,,"","",143027
@@ -125,24 +163,34 @@ name,CMC,Type,Color,Set,Collector Number,Rarity,Color Category,status,Finish,may
 "Harmonious Grovestrider",5,"Creature - Beast",G,"eoe","189",uncommon,Green,Not Owned,,false,,,"","",142991
 "Lashwhip Predator",6,"Creature - Plant Beast",G,"eoe","195",uncommon,Green,Not Owned,,false,,,"","",143003
 "Fungal Colossus",7,"Creature - Fungus Beast",G,"eoe","184",common,Green,Not Owned,,false,,,"","",142981
+"Biosynthic Burst",2,"Instant",G,"eoe","173",common,Green,Not Owned,,false,,,"","",142959
+"Close Encounter",2,"Instant",G,"eoe","176",uncommon,Green,Not Owned,,false,,,"","",142965
 "Seedship Impact",2,"Instant",G,"eoe","205",uncommon,Green,Not Owned,,false,,,"","",143023
 "Diplomatic Relations",3,"Instant",G,"eoe","177",common,Green,Not Owned,,false,,,"","",142967
 "Diplomatic Relations",3,"Instant",G,"eoe","177",common,Green,Not Owned,,false,,,"","",142967
+"Sami's Curiosity",1,"Sorcery",G,"eoe","203",common,Green,Not Owned,,false,,,"","",143019
 "Shattered Wings",3,"Sorcery",G,"eoe","206",common,Green,Not Owned,,false,,,"","",143025
+"Pull Through the Weft",5,"Sorcery",G,"eoe","202",uncommon,Green,Not Owned,,false,,,"","",143017
 "Meltstrider's Gear",1,"Artifact - Equipment",G,"eoe","198",common,Green,Not Owned,,false,,,"","",143009
 "Larval Scoutlander",3,"Artifact - Spacecraft",G,"eoe","194",uncommon,Green,Not Owned,,false,,,"","",143001
 "Sledge-Class Seedship",3,"Artifact - Spacecraft",G,"eoe","208",rare,Green,Not Owned,,false,,,"","",143029
 "Meltstrider's Resolve",1,"Enchantment - Aura",G,"eoe","199",uncommon,Green,Not Owned,,false,,,"","",143011
+"Meltstrider's Resolve",1,"Enchantment - Aura",G,"eoe","199",uncommon,Green,Not Owned,,false,,,"","",143011
 "Terrasymbiosis",3,"Enchantment",G,"eoe","210",rare,Green,Not Owned,,false,,,"","",143033
+"Loading Zone",4,"Enchantment",G,"eoe","196",rare,Green,Not Owned,,false,,,"","",143005
+"Eusocial Engineering",5,"Enchantment",G,"eoe","181",uncommon,Green,Not Owned,,false,,,"","",142975
 "Chrome Companion",2,"Artifact Creature - Dog",,"eoe","236",common,Colorless,Not Owned,,false,,,"","",143085
 "Virulent Silencer",3,"Artifact Creature - Robot Assassin",,"eoe","248",uncommon,Colorless,Not Owned,,false,,,"","",143109
 "Bygone Colossus",9,"Artifact Creature - Robot Giant",,"eoe","235",uncommon,Colorless,Not Owned,,false,,,"","",143083
 "Navigator's Compass",1,"Artifact",,"dom","225",common,Colorless,Not Owned,,false,,,"","",67915
 "Nutrient Block",1,"Artifact - Food",,"eoe","243",common,Colorless,Not Owned,,false,,,"","",143099
+"Nutrient Block",1,"Artifact - Food",,"eoe","243",common,Colorless,Not Owned,,false,,,"","",143099
 "Thaumaton Torpedo",1,"Artifact",,"eoe","246",common,Colorless,Not Owned,,false,,,"","",143105
+"Wurmwall Sweeper",2,"Artifact - Spacecraft",,"eoe","249",common,Colorless,Not Owned,,false,,,"","",143111
 "Wurmwall Sweeper",2,"Artifact - Spacecraft",,"eoe","249",common,Colorless,Not Owned,,false,,,"","",143111
 "All-Fates Scroll",3,"Artifact",,"eoe","234",uncommon,Colorless,Not Owned,,false,,,"","",143081
 "Dawnsire, Sunstar Dreadnought",5,"Legendary Artifact - Spacecraft",,"eoe","238",mythic,Colorless,Not Owned,,false,,,"","",143089
+"Pinnacle Kill-Ship",7,"Artifact - Spacecraft",,"eoe","244",common,Colorless,Not Owned,,false,,,"","",143101
 "Pinnacle Kill-Ship",7,"Artifact - Spacecraft",,"eoe","244",common,Colorless,Not Owned,,false,,,"","",143101
 "Station Monitor",2,"Creature - Lizard Artificer",UW,"eoe","230",uncommon,Multicolored,Not Owned,,false,,,"","",143073
 "Devourer of Memory",2,"Creature - Nightmare",BU,"thb","213",uncommon,Multicolored,Not Owned,,false,,,"","",79550
@@ -153,26 +201,9 @@ name,CMC,Type,Color,Set,Collector Number,Rarity,Color Category,status,Finish,may
 "Seedship Broodtender",2,"Creature - Insect Citizen",BG,"eoe","227",uncommon,Multicolored,Not Owned,,false,,,"","",143067
 "Sami, Ship's Engineer",4,"Legendary Creature - Human Artificer",RW,"eoe","225",uncommon,Multicolored,Not Owned,,false,,,"","",143063
 "Vilespawn Spider",2,"Creature - Spider",GU,"vow","250",uncommon,Multicolored,Not Owned,,false,,,"","",94878
-"Azorius Guildgate",0,"Land - Gate",,"rtr","237",common,Lands,Not Owned,,false,,,"","",46379
-"Azorius Guildgate",0,"Land - Gate",,"rtr","237",common,Lands,Not Owned,,false,,,"","",46379
-"Dimir Guildgate",0,"Land - Gate",,"gtc","241",common,Lands,Not Owned,,false,,,"","",47451
-"Dimir Guildgate",0,"Land - Gate",,"gtc","241",common,Lands,Not Owned,,false,,,"","",47451
-"Gruul Guildgate",0,"Land - Gate",,"gtc","243",common,Lands,Not Owned,,false,,,"","",47455
-"Gruul Guildgate",0,"Land - Gate",,"gtc","243",common,Lands,Not Owned,,false,,,"","",47455
-"Selesnya Guildgate",0,"Land - Gate",,"rtr","246",common,Lands,Not Owned,,false,,,"","",46377
-"Selesnya Guildgate",0,"Land - Gate",,"rtr","246",common,Lands,Not Owned,,false,,,"","",46377
-"Orzhov Guildgate",0,"Land - Gate",,"gtc","244",common,Lands,Not Owned,,false,,,"","",47621
-"Orzhov Guildgate",0,"Land - Gate",,"gtc","244",common,Lands,Not Owned,,false,,,"","",47621
-"Izzet Guildgate",0,"Land - Gate",,"rtr","242",common,Lands,Not Owned,,false,,,"","",46809
-"Izzet Guildgate",0,"Land - Gate",,"rtr","242",common,Lands,Not Owned,,false,,,"","",46809
-"Golgari Guildgate",0,"Land - Gate",,"rtr","239",common,Lands,Not Owned,,false,,,"","",46383
-"Golgari Guildgate",0,"Land - Gate",,"rtr","239",common,Lands,Not Owned,,false,,,"","",46383
-"Boros Guildgate",0,"Land - Gate",,"gtc","239",common,Lands,Not Owned,,false,,,"","",47449
-"Boros Guildgate",0,"Land - Gate",,"gtc","239",common,Lands,Not Owned,,false,,,"","",47449
-"Simic Guildgate",0,"Land - Gate",,"gtc","246",common,Lands,Not Owned,,false,,,"","",47457
-"Simic Guildgate",0,"Land - Gate",,"gtc","246",common,Lands,Not Owned,,false,,,"","",47457
 "Blast Zone",0,"Land",,"war","244",rare,Lands,Not Owned,,false,,,"","",72094
 "Cave of Temptation",0,"Land",,"mh1","237",common,Lands,Not Owned,,false,,,"","",72846
+"Command Bridge",0,"Land",,"eoe","252",common,Lands,Not Owned,,false,,,"","",143117
 "Command Bridge",0,"Land",,"eoe","252",common,Lands,Not Owned,,false,,,"","",143117
 "Evolving Wilds",0,"Land",,"roe","228",common,Lands,Not Owned,,false,,,"","",36440
 "Evolving Wilds",0,"Land",,"roe","228",common,Lands,Not Owned,,false,,,"","",36440

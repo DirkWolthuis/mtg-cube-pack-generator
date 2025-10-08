@@ -1,7 +1,7 @@
 import csv from 'csv-parser';
 import * as fs from 'fs';
 import { Card } from './card.model';
-import { SLOT_CONFIG } from './slots';
+import { SLOT_CONFIG_EOE_CUBE } from './slots';
 import { generateFilter } from './filters';
 
 const PACK_AMOUNT = 12;
@@ -88,7 +88,7 @@ const processCardData = (data: Card[]) => {
   const currentSet = data;
   const currentPacks = createPacks(PACK_AMOUNT);
 
-  SLOT_CONFIG.forEach((slotConfigs, slotName) => {
+  SLOT_CONFIG_EOE_CUBE.forEach((slotConfigs, slotName) => {
     currentPacks.forEach((pack) => {
       console.log(`picking card for pack ${pack.packNumber} for ${slotName}`);
       try {

@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "tsx generate_packs.ts",
-    "pick-packs": "tsx pick-packs.ts"
+    "pick-packs": "tsx pick-packs.ts",
+    "convert-manabox-to-list": "tsx convert-manabox-to-list.ts"
   },
   "author": "",
   "license": "ISC",
